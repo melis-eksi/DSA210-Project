@@ -8,6 +8,18 @@ By analyzing my own screen usage, sleep habits and weather conditions, I hope to
 
 # Data Description
 Screen Time: Total usage and time spent in categories from iPhone's Screen Time feature.
+
 Mood: Daily self-assessment on a 1-10 scale.
+
 Sleep Patterns: Total sleep duration (hours) and subjective quality ratings.
+
 Weather: Daily temperature and conditions sourced from a weather app.
+
+# Research Questions
+This project aims to address the following questions:
+
+1. How does daily screen time impact mood and mental well-being?
+2. Are specific app categories (e.g., social media, entertainment, productivity) more closely associated with changes in mood?
+3. What is the relationship between sleep patterns and screen time usage?
+4. Do weather conditions (e.g., temperature, sunny or rainy days) influence mood or screen time habits?
+5. How do these factors (screen time, sleep, weather) collectively interact to shape daily well-being?
