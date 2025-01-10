@@ -1,21 +1,60 @@
-# DSA210-Project
-Sabancı University DSA210 Introduction to Data Science Course Fall 2024-2025 Term Project.
+# README for `main.ipynb`
 
-# Motivation
-This project explores the relationship between my daily screen time, mood, sleep patterns and weather conditions, aiming to uncover patterns that influence mental well-being. In a digital age where technology and environmental factors shape our daily lives, understanding these connections is timely and relevant.
+## Overview
 
-By analyzing my own screen usage, sleep habits and weather conditions, I hope to gain insights into how these elements interact and impact my mental health.
+This project aims to explore and analyze relationships between screen time, sleep patterns, and weather conditions. The analysis is conducted using Python in a Jupyter Notebook (`main.ipynb`). The data used includes three datasets: `screen_time.csv`, `sleep.csv`, and `weather.csv`. This README outlines the purpose, data sources, structure, and instructions for running the notebook.
 
-# Data Description
-Sleep Patterns: Total sleep duration (hours) and subjective quality ratings.
+## Project Goals
 
-Weather: Daily temperature and conditions sourced from a weather app.
+1. Analyze the impact of screen time on sleep quality and duration.
+2. Investigate correlations between weather conditions and screen time or sleep patterns.
+3. Provide visualizations and insights to improve lifestyle decisions.
 
-# Research Questions
-This project aims to address the following questions:
+## Datasets
 
-1. How does daily screen time impact mood and mental well-being?
-2. Are specific app categories (e.g., social media, entertainment, productivity) more closely associated with changes in mood?
-3. What is the relationship between sleep patterns and screen time usage?
-4. Do weather conditions (e.g., temperature, sunny or rainy days) influence mood or screen time habits?
-5. How do these factors (sleep, weather) collectively interact to shape daily well-being?
+### 1. `screen_time.csv`
+- **Description**: Contains daily screen time usage data.
+- **Key Columns**:
+  - `Date`: The date of screen time record.
+  - `ScreenTime`: Total screen time in hours.
+
+### 2. `sleep.csv`
+- **Description**: Includes daily sleep duration and quality.
+- **Key Columns**:
+  - `Date`: The date of sleep record.
+  - `SleepDuration`: Duration of sleep in hours.
+  - `SleepQuality`: Sleep quality score (e.g., 1-10 scale).
+
+### 3. `weather.csv`
+- **Description**: Provides weather conditions for corresponding dates.
+- **Key Columns**:
+  - `Date`: The date of weather record.
+  - `Temperature`: Daily average temperature in degrees Celsius.
+  - `Condition`: Weather condition (e.g., sunny, rainy, cloudy).
+
+## Structure of the Notebook
+
+1. **Data Loading and Preprocessing**  
+   - Load the datasets using pandas.
+   - Clean and preprocess the data for analysis (e.g., handling missing values, ensuring date alignment).
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Analyze individual datasets using descriptive statistics and visualizations.
+   - Examine correlations between screen time, sleep, and weather.
+
+3. **Visualizations**  
+   - Generate plots (e.g., line charts, scatter plots) to reveal patterns and trends.
+
+4. **Insights and Recommendations**  
+   - Summarize findings from the analysis.
+   - Provide actionable recommendations based on observed trends.
+
+## Key Findings
+
+- The analysis highlights potential links between high screen time and poor sleep quality.
+- Weather conditions, particularly temperature, appear to influence both screen time and sleep duration.
+
+## Future Work
+
+- Incorporate additional features such as physical activity or diet to enhance analysis.
+- Use machine learning models and larger datasets to predict sleep quality based on screen time and weather.
