@@ -18,4 +18,4 @@ This project aims to address the following questions:
 2. Are specific app categories (e.g., social media, entertainment, productivity) more closely associated with changes in mood?
 3. What is the relationship between sleep patterns and screen time usage?
 4. Do weather conditions (e.g., temperature, sunny or rainy days) influence mood or screen time habits?
-5. How do these factors (screen time, sleep, weather) collectively interact to shape daily well-being?
+5. How do these factors (sleep, weather) collectively interact to shape daily well-being?
